@@ -3,18 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+import java.util.Scanner;
 /**
  *
  * @author LAB08
  */
 public class Datospersonales 
 {
+ 
+    
  public static void main(String[] args)
+         
  {
- String nombre=("Digite su nombre");
- String edad=("Digite su edad");
- System.out.println("B);
+  Scanner sc = new Scanner(System.in);
+  
+    
+ System.out.println("Digite su nombre");
+ 
+System.out.println("Digite su edad");
+System.out.println("Digite su edad + 20 años");
+
+String nombre = sc.nextLine();
+
+ System.out.println("Bienvenido " +nombre+",en 20 años ud. tendra edad");
+ 
  }        
          
 }
