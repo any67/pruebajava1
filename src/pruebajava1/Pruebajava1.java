@@ -5,9 +5,12 @@
  */
 package pruebajava1;
 
-/**
- *
+/***************************************************************************************************************************
+ *Any San Francisco
  * @author LAB08
+ * Fecha:Octubre 30 de 2017
+ * Programa:pruebajava
+ * Responsabilidad:clase Principal
  */
 public class Pruebajava1 {
 
